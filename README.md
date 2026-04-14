@@ -12,3 +12,20 @@ This project presents an intelligent healthcare application that predicts diabet
 The system analyzes user-provided clinical and demographic data to estimate the probability of diabetes and classifies the risk into **LOW, MEDIUM, and HIGH categories**.  
 
 In addition to prediction, the application integrates **Explainable Artificial Intelligence (XAI)** using SHAP to provide transparency, along with **clinical interpretation and personalized health recommendations** through an interactive Streamlit dashboard.
+# Key Features
+  - Machine Learning-based Diabetes Prediction  
+  - Risk Classification (Low / Medium / High)  
+  - Explainable AI using SHAP  
+  - Clinical Interpretation Report  
+  - Personalized Health Recommendations  
+  - Diet & Lifestyle Suggestions  
+  - Interactive Web Dashboard (Streamlit)  
+  - Feature Importance Visualization
+# Tech Stack
+  - **Programming Language:** Python  
+  - **Machine Learning:** Scikit-learn, XGBoost  
+  - **Web Framework:** Streamlit  
+  - **Data Processing:** Pandas, NumPy  
+  - **Explainability:** SHAP  
+  - **Visualization:** Matplotlib, Plotly  
+  - **Model Handling:** Joblib  
