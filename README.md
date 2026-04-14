@@ -1,5 +1,5 @@
 # Diabetes Prediction Using Data Analytics and Machine Learning Algorithms
-# Authors
+## Authors
   - J. Kalyani (Y22ACS465)
   - H. Likitha (Y22ACS463)
   - M. Karthik (Y22ACS495)
@@ -55,27 +55,27 @@ The Diabetes Prediction System uses supervised machine learning algorithms to an
 - **Random Forest** (Ensemble Learning Model) 
 - **XGBoost** (Gradient Boosting Model)
 **Selected Model:** XGBoost Classifier — chosen based on highest accuracy, better generalization, and superior performance across evaluation metrics (Precision,     Recall, F1-Score) compared to other models.
-# How to Run
+## How to Run
 ```
 pip install -r requirements.txt
 Run all cells in train_model.ipynb file
 streamlit run dashboard.py
 ```
-# Output
+## Output
 The system provides the following outputs:
   - Diabetes Risk Probability (%)
   - Risk Category (LOW / MEDIUM / HIGH)
   - Feature Importance (SHAP)
   - Clinical Interpretation 
   - Personalized Recommendations
-# Explainable AI (SHAP)
+## Explainable AI (SHAP)
 This project uses SHAP (SHapley Additive Explanations) to interpret model predictions.
 Key Benefits:
   - Explains how each feature affects prediction
   - Provides patient-specific insights
   - Improves transparency and trust
   - Supports better clinical decision-making
-# Future Scope
+## Future Scope
   -  Automated PDF Report Generation  
   -  Additional Clinical Parameters  
   -  Mobile-Friendly Application  
