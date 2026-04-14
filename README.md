@@ -1,1 +1,1 @@
-# A2_Project_Thesis
+# Diabetes Prediction Using Data Analytics and Machine Learning Algorithms
