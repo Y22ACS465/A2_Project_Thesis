@@ -53,5 +53,11 @@ The Diabetes Prediction System uses supervised machine learning algorithms to an
 - **Logistic Regression** (Linear Classification Model) 
 - **Decision Tree** (Rule-Based Model)  
 - **Random Forest** (Ensemble Learning Model) 
-- **XGBoost** (Gradient Boosting Model)  
+- **XGBoost** (Gradient Boosting Model)
 **Selected Model:** XGBoost Classifier — chosen based on highest accuracy, better generalization, and superior performance across evaluation metrics (Precision,     Recall, F1-Score) compared to other models.
+# How to Run
+pip install -r requirements.txt
+### Train the model
+python train_model.py
+### Run the application
+streamlit run app.py
