@@ -30,10 +30,7 @@ The Diabetes Prediction System follows a structured pipeline to process user inp
 - **Model Prediction**  
    The processed data is passed to the trained ML model, which predicts the probability of diabetes.
 - **Risk Classification**  
-   The predicted probability is categorized into:
-   - LOW Risk  
-   - MEDIUM Risk  
-   - HIGH Risk  
+   The predicted probability is categorized into LOW Risk,MEDIUM Risk,HIGH Risk  
 - **SHAP Explainability**  
    SHAP (Explainable AI) analyzes how each feature contributes to the prediction and identifies key risk factors.
 - **Visualization**  
