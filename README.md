@@ -58,5 +58,6 @@ The Diabetes Prediction System uses supervised machine learning algorithms to an
 # How to Run
 ```
 pip install -r requirements.txt
+Run all cells in train_model.ipynb file
 streamlit run dashboard.py
 ```
