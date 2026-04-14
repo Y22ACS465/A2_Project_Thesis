@@ -22,20 +22,26 @@ In addition to prediction, the application integrates **Explainable Artificial I
   - Interactive Web Dashboard (Streamlit)  
   - Feature Importance Visualization
 # System Architecture
-The system is designed using a modular architecture consisting of the following components:
-
-- **User Interface (Streamlit Dashboard)**  
-  Collects user input and displays results interactively.
-- **Data Processing Module**  
-  Handles data cleaning, encoding, and scaling.
-- **Machine Learning Model**  
-  Trained using algorithms like Random Forest or XGBoost to predict diabetes risk.
-- **Explainability Module (SHAP)**  
-  Provides feature-level interpretation of predictions.
-- **Visualization Module**  
-  Displays graphs and feature importance charts.
-- **Recommendation Engine**  
-  Generates personalized health and dietary suggestions.
+The Diabetes Prediction System follows a structured pipeline to process user input and generate accurate, interpretable results:
+- **User Input**  
+   The user enters clinical details such as age, BMI, HbA1c level, blood glucose level, hypertension, heart disease, gender, and smoking history.
+- **Data Preprocessing**  
+   Input data is validated, encoded, and scaled to match the format required by the trained machine learning model.
+- **Model Prediction**  
+   The processed data is passed to the trained ML model, which predicts the probability of diabetes.
+- **Risk Classification**  
+   The predicted probability is categorized into:
+   - LOW Risk  
+   - MEDIUM Risk  
+   - HIGH Risk  
+- **SHAP Explainability**  
+   SHAP (Explainable AI) analyzes how each feature contributes to the prediction and identifies key risk factors.
+- **Visualization**  
+   Graphs and plots are generated to represent feature importance and model insights.
+- **Clinical Interpretation**  
+   The system generates a detailed explanation of the patient’s health condition based on input values.
+- **Personalized Recommendations**  
+   Based on risk level, the system suggests diet plans, lifestyle changes, and medical advice.
 # Tech Stack
   - **Programming Language:** Python  
   - **Machine Learning:** Scikit-learn, XGBoost  
