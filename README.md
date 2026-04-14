@@ -49,7 +49,7 @@ The Diabetes Prediction System follows a structured pipeline to process user inp
   - **Model Handling:** Joblib
 # Dataset
 The model is trained using a diabetes prediction dataset containing approximately **100,000 patient records**.
-### 🔹 Input Features:
+## Input Features:
   - Age  
   - BMI (Body Mass Index)  
   - HbA1c Level  
