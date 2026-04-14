@@ -61,13 +61,6 @@ pip install -r requirements.txt
 Run all cells in train_model.ipynb file
 streamlit run dashboard.py
 ```
-## Output
-The system provides the following outputs:
-  - Diabetes Risk Probability (%)
-  - Risk Category (LOW / MEDIUM / HIGH)
-  - Feature Importance (SHAP)
-  - Clinical Interpretation 
-  - Personalized Recommendations
 ## Explainable AI (SHAP)
 This project uses SHAP (SHapley Additive Explanations) to interpret model predictions.
 Key Benefits:
@@ -75,6 +68,13 @@ Key Benefits:
   - Provides patient-specific insights
   - Improves transparency and trust
   - Supports better clinical decision-making
+## Output
+The system provides the following outputs:
+  - Diabetes Risk Probability (%)
+  - Risk Category (LOW / MEDIUM / HIGH)
+  - Feature Importance (SHAP)
+  - Clinical Interpretation 
+  - Personalized Recommendations
 ## Future Scope
   -  Automated PDF Report Generation  
   -  Additional Clinical Parameters  
