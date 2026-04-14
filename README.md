@@ -58,4 +58,14 @@ The model is trained using a diabetes prediction dataset containing approximatel
   - Heart Disease  
   - Gender  
   - Smoking History  
-
+# Model Details
+The Diabetes Prediction System uses supervised machine learning algorithms to analyze patient data and predict diabetes risk.
+###  Algorithms Used
+- **Logistic Regression** (Linear Classification Model) 
+  A statistical model used for binary classification. It predicts the probability of diabetes based on a linear relationship between input features.
+- **Decision Tree** (Rule-Based Model)  
+  A tree-structured model that makes decisions based on feature conditions. It is easy to interpret and visualize.
+- **Random Forest** (Ensemble Learning Model) 
+  Combines multiple decision trees to improve accuracy and reduce overfitting by averaging predictions.
+- **XGBoost** (Gradient Boosting Model)  
+  An advanced boosting algorithm that provides high accuracy and performance by sequentially improving weak learners.
