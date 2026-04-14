@@ -47,17 +47,6 @@ The Diabetes Prediction System follows a structured pipeline to process user inp
   - **Explainability:** SHAP  
   - **Visualization:** Matplotlib, Plotly  
   - **Model Handling:** Joblib
-# Dataset
-The model is trained using a diabetes prediction dataset containing approximately **100,000 patient records**.
-### Input Features:
-  - Age  
-  - BMI (Body Mass Index)  
-  - HbA1c Level  
-  - Blood Glucose Level  
-  - Hypertension  
-  - Heart Disease  
-  - Gender  
-  - Smoking History  
 # Model Details
 The Diabetes Prediction System uses supervised machine learning algorithms to analyze patient data and predict diabetes risk.
 ###  Algorithms Used
@@ -65,4 +54,4 @@ The Diabetes Prediction System uses supervised machine learning algorithms to an
 - **Decision Tree** (Rule-Based Model)  
 - **Random Forest** (Ensemble Learning Model) 
 - **XGBoost** (Gradient Boosting Model)  
-  **Selected Model:** XGBoost Classifier — chosen based on highest accuracy, better generalization, and superior performance across evaluation metrics (Precision,     Recall, F1-Score) compared to other models.
+**Selected Model:** XGBoost Classifier — chosen based on highest accuracy, better generalization, and superior performance across evaluation metrics (Precision,     Recall, F1-Score) compared to other models.
