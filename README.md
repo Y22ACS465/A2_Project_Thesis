@@ -1,7 +1,7 @@
 # Diabetes Prediction Using Data Analytics and Machine Learning Algorithms
 # Authors
-Sk.Mohammad Ali (Y22ACS558)
-M.Hema Bhuvaneswari (Y22ACS501)
-V.Sravani (Y22ACS587)
-S.Naga Goutham (Y22ACS564)
+  - J. Kalyani (Y22ACS465)
+  - H. Likitha (Y22ACS463)
+  - M. Karthik (Y22ACS495)
+  - M. Sujata (L23ACS609)
 
