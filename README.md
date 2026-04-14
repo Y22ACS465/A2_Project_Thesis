@@ -16,11 +16,26 @@ In addition to prediction, the application integrates **Explainable Artificial I
   - Machine Learning-based Diabetes Prediction  
   - Risk Classification (Low / Medium / High)  
   - Explainable AI using SHAP  
-  - Clinical Interpretation Report  
+  - Clinical Interpretation   
   - Personalized Health Recommendations  
   - Diet & Lifestyle Suggestions  
   - Interactive Web Dashboard (Streamlit)  
   - Feature Importance Visualization
+# System Architecture
+The system is designed using a modular architecture consisting of the following components:
+
+- **User Interface (Streamlit Dashboard)**  
+  Collects user input and displays results interactively.
+- **Data Processing Module**  
+  Handles data cleaning, encoding, and scaling.
+- **Machine Learning Model**  
+  Trained using algorithms like Random Forest or XGBoost to predict diabetes risk.
+- **Explainability Module (SHAP)**  
+  Provides feature-level interpretation of predictions.
+- **Visualization Module**  
+  Displays graphs and feature importance charts.
+- **Recommendation Engine**  
+  Generates personalized health and dietary suggestions.
 # Tech Stack
   - **Programming Language:** Python  
   - **Machine Learning:** Scikit-learn, XGBoost  
